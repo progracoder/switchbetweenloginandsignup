@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #092756;
+    font-family: sans-serif;
+}
+
+h1{
+    width: 390px;
+    margin: 40px auto;
+    border-radius: 34px;
+}
+
+h1 span{
+    color: #9C9C9C;
+    cursor: pointer;
+    background-color: #F5F5F5;
+}
+
+h1 [data-class="login"]{
+    padding: 10px 50px;
+    border-radius: 34px 0 0 34px;
+}
+
+h1 [data-class="signup"]{
+    padding: 10px 40px;
+    border-radius: 0 34px  34px 0;
+}
+
+h1 [data-class="login"].active{
+    background-color: #1EACE9;
+}
+
+h1 [data-class="signup"].active{
+    background-color: #00C102;
+}
+
+.active{
+    color: #FFF;
+}
+
+form{
+    width: 390px;
+    margin: auto;
+}
+
+form input{
+    width: 390px;
+    font-size: 18px;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 14px 10px;
+    outline :none;
+    border: 2px solid #FFF;
+    color: #FFF;
+    border-radius: 34px;
+}
+
+form input[type="submit"]{
+    margin: auto 0;
+    cursor: pointer;
+}
+
+form input[value="Login"]{
+    background-color: #1EACE9;
+}
+
+form input[value="Sign Up"]{
+    background-color: #00C102;
+}
+
+.signup{
+    display: none;
+}
